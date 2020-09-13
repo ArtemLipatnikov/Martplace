@@ -1,19 +1,636 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="css/libsnpm.min.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-  
+
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <div class="header__logo">
+            <a class="header__logo-link" href="#">
+              <img class="header__logo-img" src="images/Logo.png" alt="logo">
+              <div class="header__logo-text">
+                Mart<span class="header__logo-text--blue">Place</span>
+              </div>
+            </a>
+          </div>
+          <div class="header__text">
+            <a class="header__text-link" href="#">Become a Seller</a>
+          </div>
+          <div class="header__basket">
+            <a class="header__basket-link lnr-alarm" href="#">
+              <div class="header__basket-alarm"></div>
+            </a>
+            <a class="header__basket-link lnr-envelope" href="#">
+              <div class="header__basket-envelope"></div>
+            </a>
+            <a class="header__basket-link lnr-cart" href="#">
+              <div class="header__basket-cart"></div>
+            </a>
+          </div>
+          <div class="header__login">
+            <a class="header__login-imglink" href="#"><img class="header__login-img" src="images/avatar.png"
+                alt="avatar"></a>
+            <a class="header__login-namelink" href="#">
+              <div class="header__login-name">Taofiq Hakim</div>
+              <div class="header__login-balance">$20.45</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__menu">
+      <div class="container">
+        <div class="header__menu-inner">
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">
+                  All Product
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">
+                  Wordpress
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">
+                  Festures
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">
+                  Pages
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__search">
+            <form class="header__search-form" action="#">
+              <input class="header__search-input" type="text" placeholder="Search product here..." required>
+              <button class="header__search-btn" type="submit">
+                <img src="images/magnifier.png" alt="icon">
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="head">
+      <div class="container">
+        <div class="head__inner">
+          <div class="head__inner-title">
+            Create Your Own <span class="head__inner-title2">Digital Product Marketplace</span>
+          </div>
+          <div class="head__inner-text">
+            MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+          </div>
+          <div class="head__button">
+            <button class="head__button-btn">
+              View All Products
+            </button>
+            <button class="head__button-btn">
+              Popular Products
+            </button>
+          </div>
+          <div class="head__search">
+            <form class="head__form" action="#">
+              <input class="head__form-text" type="text" placeholder="Search your product..." required>
+            </form>
+            <button class="head__search-btn">
+              Search Now
+            </button>
+          </div>
+          <div class="head__search head__search-z1"></div>
+          <div class="head__search head__search-z2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="container">
+        <div class="info__inner">
+          <div class="info__inner-item">
+            <img class="info__inner-img" src="images/info-item1.png" alt="info-image">
+            <div class="info__inner-title">
+              Best UX Research
+            </div>
+            <div class="info__inner-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+          <div class="info__inner-item">
+            <img class="info__inner-img" src="images/info-item2.png" alt="info-image">
+            <div class="info__inner-title">
+              Fully Responsive
+            </div>
+            <div class="info__inner-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+          <div class="info__inner-item">
+            <img class="info__inner-img" src="images/info-item3.png" alt="info-image">
+            <div class="info__inner-title">
+              Buy & Sell Easily
+            </div>
+            <div class="info__inner-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-slider">
+      <div class="container">
+        <div class="product-slider__inner">
+          <div class="product-slider__top">
+            <div class="product-slider__top-title">
+              Weekly Featured Products
+            </div>
+            <div class="product-slider__top-button">
+              <button class="product-slider__top-btn lnr lnr-chevron-left" type="button"></button>
+              <button class="product-slider__top-btn lnr lnr-chevron-right" type="button"></button>
+            </div>
+          </div>
+          <div class="product-slider__boxslide">
+            <div class="product-slider__description">
+              <div class="product-slider__card">
+                <img class="product-slider__card-img" src="images/product-slider.jpg" alt="card">
+              </div>
+              <div class="product-slider__box">
+                <div class="product-slider__box-title">
+                  One Page Resume Template
+                </div>
+                <div class="product-slider__box-n">
+                  <span class="product-slider__box-nickname">
+                    AazzTech
+                  </span>
+                  <span class="product-slider__box-wp">
+                    WordPress
+                  </span>
+                </div>
+                <p class="product-slider__box-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                  mattis,
+                  leo quam aliquet congue justo ut scelerisque.
+                </p>
+                <div class="product-slider__items">
+                  <div class="product-slider__item">
+                    website
+                  </div>
+                  <div class="product-slider__item">
+                    plugins
+                  </div>
+                  <div class="product-slider__item">
+                    landing page
+                  </div>
+                </div>
+                <div class="product-slider__bottom">
+                  <div class="product-slider__price">
+                    $10 - $50
+                  </div>
+                  <div class="product-slider__like">
+                    46
+                  </div>
+                  <div class="product-slider__sell">
+                    634
+                  </div>
+                  <div class="product-slider__rate">
+                    <div class="rate-star"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-slider__description">
+              <div class="product-slider__card">
+                <img class="product-slider__card-img" src="images/product-slider.jpg" alt="card">
+              </div>
+              <div class="product-slider__box">
+                <div class="product-slider__box-title">
+                  One Page Resume Template
+                </div>
+                <div class="product-slider__box-n">
+                  <span class="product-slider__box-nickname">
+                    AazzTech
+                  </span>
+                  <span class="product-slider__box-wp">
+                    WordPress
+                  </span>
+                </div>
+                <p class="product-slider__box-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                  mattis,
+                  leo quam aliquet congue justo ut scelerisque.
+                </p>
+                <div class="product-slider__items">
+                  <div class="product-slider__item">
+                    website
+                  </div>
+                  <div class="product-slider__item">
+                    plugins
+                  </div>
+                  <div class="product-slider__item">
+                    landing page
+                  </div>
+                </div>
+                <div class="product-slider__bottom">
+                  <div class="product-slider__price">
+                    $10 - $50
+                  </div>
+                  <div class="product-slider__like">
+                    46
+                  </div>
+                  <div class="product-slider__sell">
+                    634
+                  </div>
+                  <div class="product-slider__rate">
+                    <div class="rate-star"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-slider__description">
+              <div class="product-slider__card">
+                <img class="product-slider__card-img" src="images/product-slider.jpg" alt="card">
+              </div>
+              <div class="product-slider__box">
+                <div class="product-slider__box-title">
+                  One Page Resume Template
+                </div>
+                <div class="product-slider__box-n">
+                  <span class="product-slider__box-nickname">
+                    AazzTech
+                  </span>
+                  <span class="product-slider__box-wp">
+                    WordPress
+                  </span>
+                </div>
+                <p class="product-slider__box-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
+                  aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                  mattis,
+                  leo quam aliquet congue justo ut scelerisque.
+                </p>
+                <div class="product-slider__items">
+                  <div class="product-slider__item">
+                    website
+                  </div>
+                  <div class="product-slider__item">
+                    plugins
+                  </div>
+                  <div class="product-slider__item">
+                    landing page
+                  </div>
+                </div>
+                <div class="product-slider__bottom">
+                  <div class="product-slider__price">
+                    $10 - $50
+                  </div>
+                  <div class="product-slider__like">
+                    46
+                  </div>
+                  <div class="product-slider__sell">
+                    634
+                  </div>
+                  <div class="product-slider__rate">
+                    <div class="rate-star"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+
+        <div class="products__top">
+          <div class="products__top-title">
+            Newest Release Products
+          </div>
+          <div class="products__top-filter">
+            Filter by:
+            <img class="products__top-filterimg" src="images/filter-Icon.svg" alt="">
+          </div>
+        </div>
+
+        <div class="products__inner">
+          <div class="products__inner-button">
+            <button class="products__inner-btn" type="button" data-filter=".category-wp">Plugins</button>
+            <button class="products__inner-btn" type="button" data-filter=".category-wp">Wordpress</button>
+            <button class="products__inner-btn" type="button" data-filter=".category-psd">Site Template</button>
+            <button class="products__inner-btn" type="button" data-filter=".category-psd">PSD Template</button>
+            <button class="products__inner-btn" type="button" data-filter=".category-html">Joomla</button>
+            <button class="products__inner-btn" type="button" data-filter=".category-html">User Interface</button>
+            <button class="products__inner-btn" type="button" data-filter=".category-psd">Landing Page</button>
+            <button class="products__inner-btn" type="button" data-filter=".category-html">Software</button>
+          </div>
+          <div class="products__inner-box">
+            <div class="products__item mix category-wp new">
+              <div class="products__item-boximg">
+                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__item-link">
+                  <a href="#" class="products__item-linkitem">More Info</a>
+                  <a href="#" class="products__item-linkitem">Live Demo</a>
+                </div>
+              </div>
+              <div class="products__item-box">
+                <a class="products__item-title">
+                  E-commerce Shopping Cart
+                </a>
+                <div class="products__item-profile">
+                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+                  </div>
+                  <div class="products__item-nickname">
+                    Theme-Valley
+                  </div>
+                  <img class="products__item-icon" src="images/content/icon-wp.svg" alt="icon">
+                  <div class="products__item-product">
+                    Plugins
+                  </div>
+                </div>
+                <p class="products__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet congue.
+                </p>
+                <div class="products__item-bottom">
+                  <div class="products__item-price">
+                    $<span class="products__item-pricenum">20</span>
+                  </div>
+                  <div class="products__item-like">
+                    90
+                  </div>
+                  <div class="products__item-rate rate-star">
+                  </div>
+                  <div class="products__item-sell">
+                    246
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item mix category-wp">
+              <div class="products__item-boximg">
+                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__item-link">
+                  <a href="#" class="products__item-linkitem">More Info</a>
+                  <a href="#" class="products__item-linkitem">Live Demo</a>
+                </div>
+              </div>
+              <div class="products__item-box">
+                <a class="products__item-title">
+                  E-commerce Shopping Cart
+                </a>
+                <div class="products__item-profile">
+                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+                  </div>
+                  <div class="products__item-nickname">
+                    Design-Hub
+                  </div>
+                  <img class="products__item-icon" src="images/content/icon-wp.svg" alt="icon">
+                  <div class="products__item-product">
+                    Plugins
+                  </div>
+                </div>
+                <p class="products__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet congue.
+                </p>
+                <div class="products__item-bottom">
+                  <div class="products__item-price">
+                    $<span class="products__item-pricenum">10 - 50</span>
+                  </div>
+                  <div class="products__item-like">
+                    90
+                  </div>
+                  <div class="products__item-rate rate-star">
+                  </div>
+                  <div class="products__item-sell">
+                    45
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item mix category-psd">
+              <div class="products__item-boximg">
+                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__item-link">
+                  <a href="#" class="products__item-linkitem">More Info</a>
+                  <a href="#" class="products__item-linkitem">Live Demo</a>
+                </div>
+              </div>
+              <div class="products__item-box">
+                <a class="products__item-title">
+                  Marketify Coffee Shop
+                </a>
+                <div class="products__item-profile">
+                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+                  </div>
+                  <div class="products__item-nickname">
+                    EchoTheme
+                  </div>
+                  <img class="products__item-icon" src="images/content/icon-psd.svg" alt="icon">
+                  <div class="products__item-product">
+                    PSD
+                  </div>
+                </div>
+                <p class="products__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet congue.
+                </p>
+                <div class="products__item-bottom">
+                  <div class="products__item-price">
+                    $<span class="products__item-pricenum">18</span>
+                  </div>
+                  <div class="products__item-like">
+                    48
+                  </div>
+                  <div class="products__item-rate rate-star">
+                  </div>
+                  <div class="products__item-sell">
+                    50
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item mix category-psd new">
+              <div class="products__item-boximg">
+                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__item-link">
+                  <a href="#" class="products__item-linkitem">More Info</a>
+                  <a href="#" class="products__item-linkitem">Live Demo</a>
+                </div>
+              </div>
+              <div class="products__item-box">
+                <a class="products__item-title">
+                  Marketify Coffee Shop
+                </a>
+                <div class="products__item-profile">
+                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+                  </div>
+                  <div class="products__item-nickname">
+                    AazzTech
+                  </div>
+                  <img class="products__item-icon" src="images/content/icon-psd.svg" alt="icon">
+                  <div class="products__item-product">
+                    PSD
+                  </div>
+                </div>
+                <p class="products__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet congue.
+                </p>
+                <div class="products__item-bottom">
+                  <div class="products__item-price">
+                    $<span class="products__item-pricenum">10 - 50</span>
+                  </div>
+                  <div class="products__item-like">
+                    48
+                  </div>
+                  <div class="products__item-rate rate-star">
+                  </div>
+                  <div class="products__item-sell">
+                    50
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item mix category-html">
+              <div class="products__item-boximg">
+                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__item-link">
+                  <a href="#" class="products__item-linkitem">More Info</a>
+                  <a href="#" class="products__item-linkitem">Live Demo</a>
+                </div>
+              </div>
+              <div class="products__item-box">
+                <a class="products__item-title">
+                  Bryson - Portfolio Template
+                </a>
+                <div class="products__item-profile">
+                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+                  </div>
+                  <div class="products__item-nickname">
+                    Artcorner
+                  </div>
+                  <img class="products__item-icon" src="images/content/icon-html.png" alt="icon">
+                  <div class="products__item-product">
+                    HTML
+                  </div>
+                </div>
+                <p class="products__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet congue.
+                </p>
+                <div class="products__item-bottom">
+                  <div class="products__item-price">
+                    $<span class="products__item-pricenum">10</span>
+                  </div>
+                  <div class="products__item-like">
+                    56
+                  </div>
+                  <div class="products__item-rate rate-star">
+                  </div>
+                  <div class="products__item-sell">
+                    68
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item mix category-html">
+              <div class="products__item-boximg">
+                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__item-link">
+                  <a href="#" class="products__item-linkitem">More Info</a>
+                  <a href="#" class="products__item-linkitem">Live Demo</a>
+                </div>
+              </div>
+              <div class="products__item-box">
+                <a class="products__item-title">
+                  Bryson - Portfolio Template
+                </a>
+                <div class="products__item-profile">
+                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+                  </div>
+                  <div class="products__item-nickname">
+                    Coder-Lab
+                  </div>
+                  <img class="products__item-icon" src="images/content/icon-html.png" alt="icon">
+                  <div class="products__item-product">
+                    HTML
+                  </div>
+                </div>
+                <p class="products__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                  the mattis, leo quam aliquet congue.
+                </p>
+                <div class="products__item-bottom">
+                  <div class="products__item-price">
+                    $<span class="products__item-pricenum">10</span>
+                  </div>
+                  <div class="products__item-like">
+                    56
+                  </div>
+                  <div class="products__item-rate rate-star">
+                  </div>
+                  <div class="products__item-sell">
+                    68
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__bottom-btn">
+            <button class="products__bottom-all" type="button" data-filter="all">
+              All New Product
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
-  <script src="js/main.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
