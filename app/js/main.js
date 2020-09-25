@@ -7,8 +7,6 @@ $(function () {
     starWidth: "15px"
   });
 
-  var mixer = mixitup('.products__inner-box');
-
   $('.product-slider__boxslide').slick({
     arrows: true,
     variableWidth: true,
@@ -16,6 +14,23 @@ $(function () {
     nextArrow: $('.lnr-chevron-right')
   });
 
+  $('.follower-slider__inner').slick({
+    arrows: true,
+    variableWidth: true,
+    prevArrow: $('.left'),
+    nextArrow: $('.right')
+  });
 
+  $('.feedback__slider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    arrows: true,
+    variableWidth: true,
+    prevArrow: $('.feedback__slider-btnl'),
+    nextArrow: $('.feedback__slider-btnr')
+  });
+
+
+  var mixer = mixitup('.products__inner-box');
 
 });

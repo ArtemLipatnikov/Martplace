@@ -2,6 +2,11 @@ $blue: #0674ec;
 $violet: #7347c1;
 $text: #555555;
 
+@mixin f300{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+}
+
 @mixin f400{
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
