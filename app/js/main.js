@@ -30,6 +30,9 @@ $(function () {
     nextArrow: $('.feedback__slider-btnr')
   });
 
+  $('.products__top-filter').on('click', function() {
+    $('.products__top-filter').toggleClass('products__top-filter--on');
+  });
 
   var mixer = mixitup('.products__inner-box');
 

@@ -21,29 +21,25 @@
           <a class="header__logo" href="#">
             <img class="header__logo-img" src="images/Logo.png" alt="logo">
           </a>
-          </a>
-          <div class="header__text">
-            <a class="header__text-link" href="#">Become a Seller</a>
-          </div>
+          <a class="header__link" href="#">Become a Seller</a>
           <div class="header__basket">
-            <a class="header__basket-link lnr-alarm" href="#">
-              <div class="header__basket-alarm"></div>
+            <a class="header__basket-link header__basket-link1 lnr-alarm" href="#">
+              <span class="header__circle header__alarm">25</span>
             </a>
-            <a class="header__basket-link lnr-envelope" href="#">
-              <div class="header__basket-envelope"></div>
+            <a class="header__basket-link header__basket-link2 lnr-envelope" href="#">
+              <span class="header__circle header__envelope">6</span>
             </a>
-            <a class="header__basket-link lnr-cart" href="#">
-              <div class="header__basket-cart"></div>
-            </a>
-          </div>
-          <div class="header__login">
-            <a class="header__login-imglink" href="#"><img class="header__login-img" src="images/avatar.png"
-                alt="avatar"></a>
-            <a class="header__login-namelink" href="#">
-              <div class="header__login-name">Taofiq Hakim</div>
-              <div class="header__login-balance">$20.45</div>
+            <a class="header__basket-link header__basket-link3 lnr-cart" href="#">
+              <span class="header__circle header__cart">2</span>
             </a>
           </div>
+          <a class="header__login" href="#">
+            <img class="header__login-img" src="images/avatar.png" alt="avatar">
+            <div class="header__name-box">
+              <span class="header__login-name">Taofiq Hakim</span>
+              <span class="header__login-balance">$20.45</span>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -52,28 +48,28 @@
       <div class="container">
         <div class="header__menu-inner">
           <nav class="header__nav">
-            <ul class="header__nav-list">
-              <li class="header__nav-item">
+            <ul class="header__list">
+              <li class="header__item">
                 <a class="header__nav-link" href="#">
                   Home
                 </a>
               </li>
-              <li class="header__nav-item">
+              <li class="header__item">
                 <a class="header__nav-link" href="#">
                   All Products
                 </a>
               </li>
-              <li class="header__nav-item">
+              <li class="header__item">
                 <a class="header__nav-link" href="#">
                   Wordpress
                 </a>
               </li>
-              <li class="header__nav-item">
+              <li class="header__item">
                 <a class="header__nav-link" href="#">
                   Festures
                 </a>
               </li>
-              <li class="header__nav-item">
+              <li class="header__item">
                 <a class="header__nav-link" href="#">
                   Pages
                 </a>
@@ -82,10 +78,11 @@
           </nav>
           <div class="header__search">
             <form class="header__search-form" action="#">
-              <input class="header__search-input" type="search" placeholder="Search product here..." required>
-              <button class="header__search-btn" type="submit">
-                <img src="images/magnifier.png" alt="icon">
-              </button>
+              <label class="label" for="search">
+                <input class="header__search-input" type="search" placeholder="Search product here..." name="search"
+                  required>
+              </label>
+              <button class="header__search-btn lnr lnr-magnifier" type="button"></button>
             </form>
           </div>
         </div>
@@ -95,76 +92,76 @@
 
   <main class="main">
 
-    <section class="head">
+    <section class="main-screen">
       <div class="container">
-        <div class="head__inner">
-          <div class="head__inner-title">
-            Create Your Own <span class="head__inner-title2">Digital Product Marketplace</span>
+        <div class="main-screen__inner">
+          <div class="main-screen__inner-title">
+            Create Your Own <span class="main-screen__inner-title2">Digital Product Marketplace</span>
           </div>
-          <div class="head__inner-text">
+          <div class="main-screen__inner-text">
             MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
           </div>
-          <div class="head__button">
-            <button class="head__button-btn">
+          <div class="main-screen__link">
+            <a class="main-screen__link-btn" type="button" href="#">
               View All Products
-            </button>
-            <button class="head__button-btn">
+            </a>
+            <a class="main-screen__link-btn" type="button" href="#">
               Popular Products
-            </button>
+            </a>
           </div>
-          <div class="head__search">
-            <form class="head__form" action="#">
-              <label class="head__label">
-                <input class="head__form-text" type="text" placeholder="Search your products..." required>
-                <select class="head__form-select">
-                  <option class="head__form-options" value="">All Caregories</option>
-                  <option class="head__form-options" value="">All Caregories</option>
-                  <option class="head__form-options" value="">All Caregories</option>
-                  <option class="head__form-options" value="">All Caregories</option>
+          <div class="main-screen__search">
+            <form class="main-screen__form" action="#">
+              <label class="main-screen__label-search" for="search">
+                <input class="main-screen__form-text" type="search" placeholder="Search your products..." required>
+              </label>
+              <label class="main-screen__label-select" for="select">
+                <select class="main-screen__form-select" name="select">
+                  <option class="main-screen__form-options" value="">All Caregories</option>
+                  <option class="main-screen__form-options" value="">All Caregories</option>
+                  <option class="main-screen__form-options" value="">All Caregories</option>
+                  <option class="main-screen__form-options" value="">All Caregories</option>
                 </select>
               </label>
             </form>
-            <button class="head__search-btn">
+            <button class="main-screen__search-btn" type="button">
               Search Now
             </button>
           </div>
-          <div class="head__search head__search-z1"></div>
-          <div class="head__search head__search-z2"></div>
         </div>
       </div>
     </section>
 
-    <section class="info">
+    <section class="advantage">
       <div class="container">
-        <div class="info__inner">
-          <div class="info__inner-item">
-            <img class="info__inner-img" src="images/info-item1.png" alt="info-image">
-            <div class="info__inner-title">
+        <div class="advantage__inner">
+          <div class="advantage__item">
+            <div class="advantage__img advantage__img1"></div>
+            <div class="advantage__title">
               Best UX Research
             </div>
-            <div class="info__inner-text">
+            <div class="advantage__text">
               Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
               the mattis, leo quam aliquet diam
               congue is laoreet elit metus.
             </div>
           </div>
-          <div class="info__inner-item">
-            <img class="info__inner-img" src="images/info-item2.png" alt="info-image">
-            <div class="info__inner-title">
+          <div class="advantage__item">
+            <div class="advantage__img advantage__img2"></div>
+            <div class="advantage__title">
               Fully Responsive
             </div>
-            <div class="info__inner-text">
+            <div class="advantage__text">
               Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
               the mattis, leo quam aliquet diam
               congue is laoreet elit metus.
             </div>
           </div>
-          <div class="info__inner-item">
-            <img class="info__inner-img" src="images/info-item3.png" alt="info-image">
-            <div class="info__inner-title">
+          <div class="advantage__item">
+            <div class="advantage__img advantage__img3"></div>
+            <div class="advantage__title">
               Buy & Sell Easily
             </div>
-            <div class="info__inner-text">
+            <div class="advantage__text">
               Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
               the mattis, leo quam aliquet diam
               congue is laoreet elit metus.
@@ -189,26 +186,28 @@
           <div class="product-slider__boxslide">
             <div>
               <div class="product-slider__description">
-                <div class="product-slider__card">
-                  <img class="product-slider__card-img" src="images/product-slider.jpg" alt="card">
-                </div>
+                <img class="product-slider__img" src="images/product-slider.jpg" alt="card">
                 <div class="product-slider__box">
                   <div class="product-slider__box-title">
                     One Page Resume Template
                   </div>
                   <div class="product-slider__box-n">
-                    <div class="product-slider__box-avatar"
-                      style="background-image: url(images/content/product-item.jpg);;">
-                    </div>
-                    <div class="product-slider__box-nickname">
-                      AazzTech
-                    </div>
-                    <img class="product-slider__box-icon" src="images/content/icon-wp.svg" alt="icon">
-                    <div class="product-slider__box-product">
-                      WordPress
-                    </div>
+                    <a class="product-slider__link" href="#">
+                      <div class="product-slider__avatar"
+                        style="background-image: url(images/content/product-item.jpg);;">
+                      </div>
+                      <div class="product-slider__nickname">
+                        AazzTech
+                      </div>
+                    </a>
+                    <a class="product-slider__link" href="#">
+                      <img class="product-slider__icon" src="images/content/icon-wp.svg" alt="icon">
+                      <div class="product-slider__product">
+                        WordPress
+                      </div>
+                    </a>
                   </div>
-                  <p class="product-slider__box-text">
+                  <p class="product-slider__text">
                     Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
                     quam
                     aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
@@ -216,26 +215,26 @@
                     leo quam aliquet congue justo ut scelerisque.
                   </p>
                   <div class="product-slider__items">
-                    <div class="product-slider__item">
+                    <a class="product-slider__item">
                       website
-                    </div>
-                    <div class="product-slider__item">
+                    </a>
+                    <a class="product-slider__item">
                       plugins
-                    </div>
-                    <div class="product-slider__item">
+                    </a>
+                    <a class="product-slider__item">
                       landing page
-                    </div>
+                    </a>
                   </div>
                   <div class="product-slider__bottom">
                     <div class="product-slider__price">
                       $10 - $50
                     </div>
-                    <div class="product-slider__like">
+                    <button class="product-slider__like" type="button">
                       46
-                    </div>
-                    <div class="product-slider__sell">
+                    </button>
+                    <button class="product-slider__sell" type="button">
                       634
-                    </div>
+                    </button>
                     <div class="product-slider__rate">
                       <div class="rate-star"></div>
                     </div>
@@ -253,18 +252,22 @@
                     One Page Resume Template
                   </div>
                   <div class="product-slider__box-n">
-                    <div class="product-slider__box-avatar"
-                      style="background-image: url(images/content/product-item.jpg);;">
-                    </div>
-                    <div class="product-slider__box-nickname">
-                      Design-Hub
-                    </div>
-                    <img class="product-slider__box-icon" src="images/content/icon-wp.svg" alt="icon">
-                    <div class="product-slider__box-product">
-                      Plugins
-                    </div>
+                    <a class="product-slider__link" href="#">
+                      <div class="product-slider__avatar"
+                        style="background-image: url(images/content/product-item.jpg);;">
+                      </div>
+                      <div class="product-slider__nickname">
+                        Design-Hub
+                      </div>
+                    </a>
+                    <a class="product-slider__link" href="#">
+                      <img class="product-slider__icon" src="images/content/icon-wp.svg" alt="icon">
+                      <div class="product-slider__product">
+                        Plugins
+                      </div>
+                    </a>
                   </div>
-                  <p class="product-slider__box-text">
+                  <p class="product-slider__text">
                     Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
                     quam
                     aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
@@ -272,71 +275,15 @@
                     leo quam aliquet congue justo ut scelerisque.
                   </p>
                   <div class="product-slider__items">
-                    <div class="product-slider__item">
+                    <a class="product-slider__item">
                       website
-                    </div>
-                    <div class="product-slider__item">
+                    </a>
+                    <a class="product-slider__item">
                       plugins
-                    </div>
-                    <div class="product-slider__item">
+                    </a>
+                    <a class="product-slider__item">
                       landing page
-                    </div>
-                  </div>
-                  <div class="product-slider__bottom">
-                    <div class="product-slider__price">
-                      $10 - $50
-                    </div>
-                    <div class="product-slider__like">
-                      46
-                    </div>
-                    <div class="product-slider__sell">
-                      634
-                    </div>
-                    <div class="product-slider__rate">
-                      <div class="rate-star"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="product-slider__description">
-                <div class="product-slider__card">
-                  <img class="product-slider__card-img" src="images/product-slider.jpg" alt="card">
-                </div>
-                <div class="product-slider__box">
-                  <div class="product-slider__box-title">
-                    One Page Resume Template
-                  </div>
-                  <div class="product-slider__box-n">
-                    <div class="product-slider__box-avatar"
-                      style="background-image: url(images/content/product-item.jpg);;">
-                    </div>
-                    <div class="product-slider__box-nickname">
-                      Design-Hub
-                    </div>
-                    <img class="product-slider__box-icon" src="images/content/icon-wp.svg" alt="icon">
-                    <div class="product-slider__box-product">
-                      Plugins
-                    </div>
-                  </div>
-                  <p class="product-slider__box-text">
-                    Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
-                    quam
-                    aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
-                    mattis,
-                    leo quam aliquet congue justo ut scelerisque.
-                  </p>
-                  <div class="product-slider__items">
-                    <div class="product-slider__item">
-                      website
-                    </div>
-                    <div class="product-slider__item">
-                      plugins
-                    </div>
-                    <div class="product-slider__item">
-                      landing page
-                    </div>
+                    </a>
                   </div>
                   <div class="product-slider__bottom">
                     <div class="product-slider__price">
@@ -374,6 +321,13 @@
               <path fill-rule="evenodd" fill="rgb(163, 177, 196)"
                 d="M2.704,4.003 C1.481,3.969 0.519,3.047 0.557,1.944 C0.594,0.840 1.617,-0.028 2.840,0.006 C4.064,0.039 5.026,0.962 4.988,2.066 C4.950,3.169 3.928,4.037 2.704,4.003 ZM4.716,10.060 C4.678,11.164 3.656,12.031 2.432,11.998 C1.208,11.963 0.247,11.041 0.284,9.938 C0.322,8.833 1.344,7.967 2.568,8.000 C3.792,8.034 4.753,8.956 4.716,10.060 ZM4.443,18.054 C4.406,19.158 3.383,20.025 2.160,19.992 C0.936,19.957 -0.026,19.035 0.012,17.932 C0.050,16.828 1.072,15.961 2.296,15.994 C3.519,16.028 4.481,16.950 4.443,18.054 Z" />
             </svg>
+            <ul class="products__filter-list">
+              <li class="products__filter-item"><a href="#" class="products__filter-link">Trending items</a></li>
+              <li class="products__filter-item"><a href="#" class="products__filter-link">Best seller</a></li>
+              <li class="products__filter-item"><a href="#" class="products__filter-link">Best rating</a></li>
+              <li class="products__filter-item"><a href="#" class="products__filter-link">Low price</a></li>
+              <li class="products__filter-item"><a href="#" class="products__filter-link">High price</a></li>
+            </ul>
           </button>
         </div>
 
@@ -390,254 +344,278 @@
           </div>
           <div class="products__inner-box">
             <div class="products__item mix category-wp new">
-              <div class="products__item-boximg">
-                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
-                <div class="products__item-link">
-                  <a href="#" class="products__item-linkitem">More Info</a>
-                  <a href="#" class="products__item-linkitem">Live Demo</a>
+              <div class="products__boximg">
+                <img class="products__image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__link">
+                  <a href="#" class="products__link-item">More Info</a>
+                  <a href="#" class="products__link-item">Live Demo</a>
                 </div>
               </div>
-              <div class="products__item-box">
+              <div class="products__box">
                 <a class="products__item-title">
                   E-commerce Shopping Cart
                 </a>
-                <div class="products__item-profile">
-                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
-                  </div>
-                  <div class="products__item-nickname">
-                    Theme-Valley
-                  </div>
-                  <img class="products__item-icon" src="images/content/icon-wp.svg" alt="icon">
-                  <div class="products__item-product">
-                    Plugins
-                  </div>
+                <div class="products__profile">
+                  <a class="products__profile-link" href="#">
+                    <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
+                    </div>
+                    <div class="products__nickname">
+                      Theme-Valley
+                    </div>
+                  </a>
+                  <a class="products__profile-link" href="#">
+                    <img class="products__icon" src="images/content/icon-wp.svg" alt="icon">
+                    <div class="products__product">
+                      Plugins
+                    </div>
+                  </a>
                 </div>
                 <p class="products__item-text">
                   Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                   the mattis, leo quam aliquet congue.
                 </p>
-                <div class="products__item-bottom">
-                  <div class="products__item-price">
+                <div class="products__bottom">
+                  <div class="products__price">
                     $<span class="products__item-pricenum">20</span>
                   </div>
-                  <div class="products__item-like">
+                  <button class="products__like" type="button">
                     90
-                  </div>
+                  </button>
                   <div class="products__item-rate rate-star">
                   </div>
-                  <div class="products__item-sell">
+                  <button class="products__sell" type="button">
                     246
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="products__item mix category-wp">
-              <div class="products__item-boximg">
-                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
-                <div class="products__item-link">
-                  <a href="#" class="products__item-linkitem">More Info</a>
-                  <a href="#" class="products__item-linkitem">Live Demo</a>
+              <div class="products__boximg">
+                <img class="products__image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__link">
+                  <a href="#" class="products__link-item">More Info</a>
+                  <a href="#" class="products__link-item">Live Demo</a>
                 </div>
               </div>
-              <div class="products__item-box">
+              <div class="products__box">
                 <a class="products__item-title">
                   E-commerce Shopping Cart
                 </a>
-                <div class="products__item-profile">
-                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
-                  </div>
-                  <div class="products__item-nickname">
-                    Design-Hub
-                  </div>
-                  <img class="products__item-icon" src="images/content/icon-wp.svg" alt="icon">
-                  <div class="products__item-product">
-                    Plugins
-                  </div>
+                <div class="products__profile">
+                  <a class="products__profile-link" href="#">
+                    <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
+                    </div>
+                    <div class="products__nickname">
+                      Design-Hub
+                    </div>
+                  </a>
+                  <a class="products__profile-link" href="#">
+                    <img class="products__icon" src="images/content/icon-wp.svg" alt="icon">
+                    <div class="products__product">
+                      Plugins
+                    </div>
+                  </a>
                 </div>
                 <p class="products__item-text">
                   Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                   the mattis, leo quam aliquet congue.
                 </p>
-                <div class="products__item-bottom">
-                  <div class="products__item-price">
+                <div class="products__bottom">
+                  <div class="products__price">
                     $<span class="products__item-pricenum">10 - 50</span>
                   </div>
-                  <div class="products__item-like">
+                  <button class="products__like" type="button">
                     90
-                  </div>
+                  </button>
                   <div class="products__item-rate rate-star">
                   </div>
-                  <div class="products__item-sell">
+                  <button class="products__sell" type="button">
                     45
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="products__item mix category-psd">
-              <div class="products__item-boximg">
-                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
-                <div class="products__item-link">
-                  <a href="#" class="products__item-linkitem">More Info</a>
-                  <a href="#" class="products__item-linkitem">Live Demo</a>
+              <div class="products__boximg">
+                <img class="products__image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__link">
+                  <a href="#" class="products__link-item">More Info</a>
+                  <a href="#" class="products__link-item">Live Demo</a>
                 </div>
               </div>
-              <div class="products__item-box">
+              <div class="products__box">
                 <a class="products__item-title">
                   Marketify Coffee Shop
                 </a>
-                <div class="products__item-profile">
-                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
-                  </div>
-                  <div class="products__item-nickname">
-                    EchoTheme
-                  </div>
-                  <img class="products__item-icon" src="images/content/icon-psd.svg" alt="icon">
-                  <div class="products__item-product">
-                    PSD
-                  </div>
+                <div class="products__profile">
+                  <a class="products__profile-link" href="#">
+                    <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
+                    </div>
+                    <div class="products__nickname">
+                      EchoTheme
+                    </div>
+                  </a>
+                  <a class="products__profile-link" href="#">
+                    <img class="products__icon" src="images/content/icon-psd.svg" alt="icon">
+                    <div class="products__product">
+                      PSD
+                    </div>
+                  </a>
                 </div>
                 <p class="products__item-text">
                   Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                   the mattis, leo quam aliquet congue.
                 </p>
-                <div class="products__item-bottom">
-                  <div class="products__item-price">
+                <div class="products__bottom">
+                  <div class="products__price">
                     $<span class="products__item-pricenum">18</span>
                   </div>
-                  <div class="products__item-like">
+                  <button class="products__like" type="button">
                     48
+                  </button>
+                  <div class="products__item-rate rate-star" type="button">
                   </div>
-                  <div class="products__item-rate rate-star">
-                  </div>
-                  <div class="products__item-sell">
+                  <button class="products__sell">
                     50
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="products__item mix category-psd new">
-              <div class="products__item-boximg">
-                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
-                <div class="products__item-link">
-                  <a href="#" class="products__item-linkitem">More Info</a>
-                  <a href="#" class="products__item-linkitem">Live Demo</a>
+              <div class="products__boximg">
+                <img class="products__image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__link">
+                  <a href="#" class="products__link-item">More Info</a>
+                  <a href="#" class="products__link-item">Live Demo</a>
                 </div>
               </div>
-              <div class="products__item-box">
+              <div class="products__box">
                 <a class="products__item-title">
                   Marketify Coffee Shop
                 </a>
-                <div class="products__item-profile">
-                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
-                  </div>
-                  <div class="products__item-nickname">
-                    AazzTech
-                  </div>
-                  <img class="products__item-icon" src="images/content/icon-psd.svg" alt="icon">
-                  <div class="products__item-product">
-                    PSD
-                  </div>
+                <div class="products__profile">
+                  <a class="products__profile-link" href="#">
+                    <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
+                    </div>
+                    <div class="products__nickname">
+                      AazzTech
+                    </div>
+                  </a>
+                  <a class="products__profile-link" href="#">
+                    <img class="products__icon" src="images/content/icon-psd.svg" alt="icon">
+                    <div class="products__product">
+                      PSD
+                    </div>
+                  </a>
                 </div>
                 <p class="products__item-text">
                   Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                   the mattis, leo quam aliquet congue.
                 </p>
-                <div class="products__item-bottom">
-                  <div class="products__item-price">
+                <div class="products__bottom">
+                  <div class="products__price">
                     $<span class="products__item-pricenum">10 - 50</span>
                   </div>
-                  <div class="products__item-like">
+                  <button class="products__like" type="button">
                     48
-                  </div>
+                  </button>
                   <div class="products__item-rate rate-star">
                   </div>
-                  <div class="products__item-sell">
+                  <button class="products__sell" type="button">
                     50
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="products__item mix category-html">
-              <div class="products__item-boximg">
-                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
-                <div class="products__item-link">
-                  <a href="#" class="products__item-linkitem">More Info</a>
-                  <a href="#" class="products__item-linkitem">Live Demo</a>
+              <div class="products__boximg">
+                <img class="products__image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__link">
+                  <a href="#" class="products__link-item">More Info</a>
+                  <a href="#" class="products__link-item">Live Demo</a>
                 </div>
               </div>
-              <div class="products__item-box">
+              <div class="products__box">
                 <a class="products__item-title">
                   Bryson - Portfolio Template
                 </a>
-                <div class="products__item-profile">
-                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
-                  </div>
-                  <div class="products__item-nickname">
-                    Artcorner
-                  </div>
-                  <img class="products__item-icon" src="images/content/icon-html.png" alt="icon">
-                  <div class="products__item-product">
-                    HTML
-                  </div>
+                <div class="products__profile">
+                  <a class="products__profile-link" href="#">
+                    <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
+                    </div>
+                    <div class="products__nickname">
+                      Artcorner
+                    </div>
+                  </a>
+                  <a class="products__profile-link" href="#">
+                    <img class="products__icon products__icon--width" src="images/content/icon-html.png" alt="icon">
+                    <div class="products__product">
+                      HTML
+                    </div>
+                  </a>
                 </div>
                 <p class="products__item-text">
                   Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                   the mattis, leo quam aliquet congue.
                 </p>
-                <div class="products__item-bottom">
-                  <div class="products__item-price">
+                <div class="products__bottom">
+                  <div class="products__price">
                     $<span class="products__item-pricenum">10</span>
                   </div>
-                  <div class="products__item-like">
+                  <button class="products__like" type="button">
                     56
-                  </div>
+                  </button>
                   <div class="products__item-rate rate-star">
                   </div>
-                  <div class="products__item-sell">
+                  <button class="products__sell" type="button">
                     68
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
             <div class="products__item mix category-html">
-              <div class="products__item-boximg">
-                <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
-                <div class="products__item-link">
-                  <a href="#" class="products__item-linkitem">More Info</a>
-                  <a href="#" class="products__item-linkitem">Live Demo</a>
+              <div class="products__boximg">
+                <img class="products__image" src="images/content/product-item.jpg" alt="product">
+                <div class="products__link">
+                  <a href="#" class="products__link-item">More Info</a>
+                  <a href="#" class="products__link-item">Live Demo</a>
                 </div>
               </div>
-              <div class="products__item-box">
+              <div class="products__box">
                 <a class="products__item-title">
                   Bryson - Portfolio Template
                 </a>
-                <div class="products__item-profile">
-                  <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
-                  </div>
-                  <div class="products__item-nickname">
-                    Coder-Lab
-                  </div>
-                  <img class="products__item-icon" src="images/content/icon-html.png" alt="icon">
-                  <div class="products__item-product">
-                    HTML
-                  </div>
+                <div class="products__profile">
+                  <a class="products__profile-link" href="#">
+                    <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
+                    </div>
+                    <div class="products__nickname">
+                      Coder-Lab
+                    </div>
+                  </a>
+                  <a class="products__profile-link" href="#">
+                    <img class="products__icon products__icon--width" src="images/content/icon-html.png" alt="icon">
+                    <div class="products__product">
+                      HTML
+                    </div>
+                  </a>
                 </div>
                 <p class="products__item-text">
                   Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                   the mattis, leo quam aliquet congue.
                 </p>
-                <div class="products__item-bottom">
-                  <div class="products__item-price">
+                <div class="products__bottom">
+                  <div class="products__price">
                     $<span class="products__item-pricenum">10</span>
                   </div>
-                  <div class="products__item-like">
+                  <button class="products__like" type="button">
                     56
-                  </div>
+                  </button>
                   <div class="products__item-rate rate-star">
                   </div>
-                  <div class="products__item-sell">
+                  <button class="products__sell" type="button">
                     68
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
@@ -664,25 +642,25 @@
         </div>
         <div class="follower-slider__inner">
           <div class="follower-slider__item products__item">
-            <div class="products__item-boximg">
-              <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
-              <div class="products__item-link">
-                <a href="#" class="products__item-linkitem">More Info</a>
-                <a href="#" class="products__item-linkitem">Live Demo</a>
+            <div class="products__boximg">
+              <img class="products__image" src="images/content/product-item.jpg" alt="product">
+              <div class="products__link">
+                <a href="#" class="products__link-item">More Info</a>
+                <a href="#" class="products__link-item">Live Demo</a>
               </div>
             </div>
-            <div class="products__item-box">
+            <div class="products__box">
               <a class="products__item-title">
                 E-commerce Shopping Cart
               </a>
-              <div class="products__item-profile">
-                <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+              <div class="products__profile">
+                <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
                 </div>
-                <div class="products__item-nickname">
+                <div class="products__nickname">
                   Theme-Valley
                 </div>
-                <img class="products__item-icon" src="images/content/icon-wp.svg" alt="icon">
-                <div class="products__item-product">
+                <img class="products__icon" src="images/content/icon-wp.svg" alt="icon">
+                <div class="products__product">
                   Plugins
                 </div>
               </div>
@@ -690,41 +668,41 @@
                 Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                 the mattis, leo quam aliquet congue.
               </p>
-              <div class="products__item-bottom">
-                <div class="products__item-price">
+              <div class="products__bottom">
+                <div class="products__price">
                   $<span class="products__item-pricenum">20</span>
                 </div>
-                <div class="products__item-like">
+                <div class="products__like">
                   90
                 </div>
                 <div class="products__item-rate rate-star">
                 </div>
-                <div class="products__item-sell">
+                <div class="products__sell">
                   246
                 </div>
               </div>
             </div>
           </div>
           <div class="follower-slider__item products__item">
-            <div class="products__item-boximg">
-              <img class="products__item-image" src="images/content/product-item2.jpg" alt="product">
-              <div class="products__item-link">
-                <a href="#" class="products__item-linkitem">More Info</a>
-                <a href="#" class="products__item-linkitem">Live Demo</a>
+            <div class="products__boximg">
+              <img class="products__image" src="images/content/product-item2.jpg" alt="product">
+              <div class="products__link">
+                <a href="#" class="products__link-item">More Info</a>
+                <a href="#" class="products__link-item">Live Demo</a>
               </div>
             </div>
-            <div class="products__item-box">
+            <div class="products__box">
               <a class="products__item-title">
                 Marketify Coffee Shop
               </a>
-              <div class="products__item-profile">
-                <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+              <div class="products__profile">
+                <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
                 </div>
-                <div class="products__item-nickname">
+                <div class="products__nickname">
                   EchoTheme
                 </div>
-                <img class="products__item-icon" src="images/content/icon-psd.svg" alt="icon">
-                <div class="products__item-product">
+                <img class="products__icon" src="images/content/icon-psd.svg" alt="icon">
+                <div class="products__product">
                   PSD
                 </div>
               </div>
@@ -732,41 +710,41 @@
                 Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                 the mattis, leo quam aliquet congue.
               </p>
-              <div class="products__item-bottom">
-                <div class="products__item-price">
+              <div class="products__bottom">
+                <div class="products__price">
                   $<span class="products__item-pricenum">18</span>
                 </div>
-                <div class="products__item-like">
+                <div class="products__like">
                   48
                 </div>
                 <div class="products__item-rate rate-star">
                 </div>
-                <div class="products__item-sell">
+                <div class="products__sell">
                   50
                 </div>
               </div>
             </div>
           </div>
           <div class="follower-slider__item products__item">
-            <div class="products__item-boximg">
-              <img class="products__item-image" src="images/content/product-item.jpg" alt="product">
-              <div class="products__item-link">
-                <a href="#" class="products__item-linkitem">More Info</a>
-                <a href="#" class="products__item-linkitem">Live Demo</a>
+            <div class="products__boximg">
+              <img class="products__image" src="images/content/product-item.jpg" alt="product">
+              <div class="products__link">
+                <a href="#" class="products__link-item">More Info</a>
+                <a href="#" class="products__link-item">Live Demo</a>
               </div>
             </div>
-            <div class="products__item-box">
+            <div class="products__box">
               <a class="products__item-title">
                 Bryson - Portfolio Template
               </a>
-              <div class="products__item-profile">
-                <div class="products__item-avatar" style="background-image: url(images/content/product-item.jpg);;">
+              <div class="products__profile">
+                <div class="products__avatar" style="background-image: url(images/content/product-item.jpg);;">
                 </div>
-                <div class="products__item-nickname">
+                <div class="products__nickname">
                   Artcorner
                 </div>
-                <img class="products__item-icon" src="images/content/icon-html.png" alt="icon">
-                <div class="products__item-product">
+                <img class="products__icon" src="images/content/icon-html.png" alt="icon">
+                <div class="products__product">
                   HTML
                 </div>
               </div>
@@ -774,16 +752,16 @@
                 Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                 the mattis, leo quam aliquet congue.
               </p>
-              <div class="products__item-bottom">
-                <div class="products__item-price">
+              <div class="products__bottom">
+                <div class="products__price">
                   $<span class="products__item-pricenum">10</span>
                 </div>
-                <div class="products__item-like">
+                <div class="products__like">
                   56
                 </div>
                 <div class="products__item-rate rate-star">
                 </div>
-                <div class="products__item-sell">
+                <div class="products__sell">
                   68
                 </div>
               </div>
@@ -793,50 +771,50 @@
       </div>
     </section>
 
-    <section class="fun">
+    <section class="statistics">
       <div class="container">
-        <div class="fun__inner">
-          <div class="fun__item">
-            <div class="fun__item-box1">
-              <div class="fun__item-icon lnr lnr-briefcase"></div>
-              <div class="fun__item-number">
+        <div class="statistics__inner">
+          <div class="statistics__item">
+            <div class="statistics__box1">
+              <div class="statistics__icon lnr lnr-briefcase"></div>
+              <div class="statistics__number">
                 38,436
               </div>
             </div>
-            <div class="fun__item-text">
+            <div class="statistics__text">
               items for sale
             </div>
           </div>
-          <div class="fun__item">
-            <div class="fun__item-box2">
-              <div class="fun__item-icon lnr lnr-cloud-download"></div>
-              <div class="fun__item-number">
+          <div class="statistics__item">
+            <div class="statistics__box2">
+              <div class="statistics__icon lnr lnr-cloud-download"></div>
+              <div class="statistics__number">
                 3,736
               </div>
             </div>
-            <div class="fun__item-text">
+            <div class="statistics__text">
               total sales
             </div>
           </div>
-          <div class="fun__item">
-            <div class="fun__item-box3">
-              <div class="fun__item-icon lnr lnr-smile"></div>
-              <div class="fun__item-number">
+          <div class="statistics__item">
+            <div class="statistics__box3">
+              <div class="statistics__icon lnr lnr-smile"></div>
+              <div class="statistics__number">
                 2,736
               </div>
             </div>
-            <div class="fun__item-text">
+            <div class="statistics__text">
               happy customers
             </div>
           </div>
-          <div class="fun__item">
-            <div class="fun__item-box4">
-              <div class="fun__item-icon lnr lnr-users"></div>
-              <div class="fun__item-number">
+          <div class="statistics__item">
+            <div class="statistics__box4">
+              <div class="statistics__icon lnr lnr-users"></div>
+              <div class="statistics__number">
                 25,736
               </div>
             </div>
-            <div class="fun__item-text">
+            <div class="statistics__text">
               members
             </div>
           </div>
@@ -848,7 +826,7 @@
       <div class="container">
         <div class="top-head">
           <div class="top-head__title">
-            Why Choose <span class="top-head__title--blue">MartPlace</span>
+            Why Choose <span class="top-head__title top-head__title--blue">MartPlace</span>
           </div>
           <div class="top-head__text">
             Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est
@@ -859,7 +837,7 @@
 
           <div class="choise__item">
             <span class="choise__item-number">01</span>
-            <div class="choise__item-icon choise__item-icon--blue lnr lnr-license"></div>
+            <div class="choise__item-icon choise__item-icon--color lnr lnr-license"></div>
             <div class="choise__item-title">
               One Time Payment
             </div>
@@ -871,7 +849,7 @@
           </div>
           <div class="choise__item">
             <span class="choise__item-number">02</span>
-            <div class="choise__item-icon choise__item-icon--blue lnr lnr-magic-wand"></div>
+            <div class="choise__item-icon choise__item-icon--color2 lnr lnr-magic-wand"></div>
             <div class="choise__item-title">
               Quality Products
             </div>
@@ -883,7 +861,7 @@
           </div>
           <div class="choise__item">
             <span class="choise__item-number">03</span>
-            <div class="choise__item-icon choise__item-icon--blue lnr lnr-lock"></div>
+            <div class="choise__item-icon choise__item-icon--color3 lnr lnr-lock"></div>
             <div class="choise__item-title">
               100% Secure Payment
             </div>
@@ -895,7 +873,7 @@
           </div>
           <div class="choise__item">
             <span class="choise__item-number">04</span>
-            <div class="choise__item-icon choise__item-icon--blue lnr lnr-chart-bars"></div>
+            <div class="choise__item-icon choise__item-icon--color4 lnr lnr-chart-bars"></div>
             <div class="choise__item-title">
               Well Organized Code
             </div>
@@ -907,7 +885,7 @@
           </div>
           <div class="choise__item">
             <span class="choise__item-number">05</span>
-            <div class="choise__item-icon choise__item-icon--blue lnr lnr-leaf"></div>
+            <div class="choise__item-icon choise__item-icon--color5 lnr lnr-leaf"></div>
             <div class="choise__item-title">
               Life Time Free Update
             </div>
@@ -919,7 +897,7 @@
           </div>
           <div class="choise__item">
             <span class="choise__item-number">06</span>
-            <div class="choise__item-icon choise__item-icon--blue lnr lnr-phone"></div>
+            <div class="choise__item-icon choise__item-icon--color6 lnr lnr-phone"></div>
             <div class="choise__item-title">
               Fast and Friendly Support
             </div>
@@ -970,7 +948,7 @@
         <div class="feedback__inner">
           <div class="top-head">
             <div class="top-head__title">
-              Our Clients <span class="top-head__title--blue">Feedback</span>
+              Our Clients <span class="top-head__title top-head__title--blue">Feedback</span>
             </div>
             <div class="top-head__text">
               Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est
@@ -1061,7 +1039,7 @@
         <div class="news__inner">
           <div class="top-head">
             <div class="top-head__title">
-              Latest <span class="top-head__title--blue">News</span>
+              Latest <span class="top-head__title top-head__title--blue">News</span>
             </div>
             <div class="top-head__text">
               Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est
@@ -1069,7 +1047,7 @@
             </div>
           </div>
           <div class="news__items">
-            <div class="news__item">
+            <a class="news__item" href="#">
               <div class="news__item-img" style="background-image: url(images/content/news-item1.jpg);"></div>
               <div class="news__item-title">
                 Web Design Trends in 2017
@@ -1089,8 +1067,8 @@
                   345
                 </span>
               </div>
-            </div>
-            <div class="news__item">
+            </a>
+            <a class="news__item" href="#">
               <div class="news__item-img" style="background-image: url(images/content/news-item1.jpg);"></div>
               <div class="news__item-title">The best advices to sta
               </div>
@@ -1109,8 +1087,8 @@
                   345
                 </span>
               </div>
-            </div>
-            <div class="news__item news__item-last">
+            </a>
+            <a class="news__item news__item-last" href="#">
               <div class="news__item-img" style="background-image: url(images/content/news-item1.jpg);"></div>
               <div class="news__item-title">
                 Best Related Post Plugin
@@ -1130,7 +1108,7 @@
                   345
                 </span>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -1143,13 +1121,13 @@
           <div class="support__item">
             <div class="support__item-image"></div>
             <div class="support__item-title">
-              30 Days Money Back <span class="support__item-title--blue">Guarantee</span>
+              30 Days Money Back <a class="support__item-title support__item-title--blue" href="#">Guarantee</a>
             </div>
           </div>
           <div class="support__item">
             <div class="support__item-image support__item-image2"></div>
             <div class="support__item-title">
-              Fast and Friendly <span class="support__item-title--blue">Support</span>
+              Fast and Friendly <a class="support__item-title support__item-title--violet" href="#">Support</a>
             </div>
           </div>
         </div>
@@ -1187,10 +1165,10 @@
               </p>
               <a class="footer__info" href="tel:+6789-875-2235">Phone: +6789-875-2235</a>
               <a class="footer__info footer__info-mail" href="mailto:support@aazztech.com">support@aazztech.com</a>
-              <div class="footer__info footer__info-marker">
+              <a class="footer__info footer__info-marker" href="#">
                 202 New Hampshire Avenue
                 Northwest #100, New York-2573
-              </div>
+              </a>
             </div>
             <div class="footer__col footer__col-menu">
               <div class="footer__col-title">
@@ -1282,18 +1260,18 @@
                 Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!
               </p>
               <form class="footer__form" action="#">
-                <label for="" class="footer__label">
-                  <input class="footer__form-text" type="text" placeholder="Enter email">
-                  <button class="footer__form-button" type="submit">Submit</button>
+                <label for="email" class="footer__label">
+                  <input class="footer__form-text" name="email" type="email" placeholder="Enter email">
                 </label>
+                <button class="footer__form-button" type="submit">Submit</button>
               </form>
-              <ul class="footer__social-link">
-                <li class="footer__social-linklist"><a class="footer__link footer__link-facebook" href="#"></a></li>
-                <li class="footer__social-linklist"><a class="footer__link footer__link-twitter" href="#"></a></li>
-                <li class="footer__social-linklist"><a class="footer__link footer__link-google" href="#"></a></li>
-                <li class="footer__social-linklist"><a class="footer__link footer__link-pinterest" href="#"></a></li>
-                <li class="footer__social-linklist"><a class="footer__link footer__link-linledin" href="#"></a></li>
-                <li class="footer__social-linklist"><a class="footer__link footer__link-ball" href="#"></a></li>
+              <ul class="social">
+                <li class="social__list"><a class="social__link social__link1 icon-facebook" href="#"></a></li>
+                <li class="social__list"><a class="social__link social__link2 icon-twitter" href="#"></a></li>
+                <li class="social__list"><a class="social__link social__link3 icon-google" href="#"></a></li>
+                <li class="social__list"><a class="social__link social__link4 icon-pinterest" href="#"></a></li>
+                <li class="social__list"><a class="social__link social__link5 icon-linkedin" href="#"></a></li>
+                <li class="social__list"><a class="social__link social__link6 icon-dribbble" href="#"></a></li>
               </ul>
             </div>
           </div>
@@ -1302,8 +1280,8 @@
       <div class="footer__copy">
         <div class="container">
           <div class="footer__copy-text">
-            ©2017 <span class="footer__copy-text--white">MartPlace</span>. All rights reserved. Created by <span
-              class="footer__copy-text--white">AazzTech</span>
+            ©2017 <a class="footer__copy-text--white" href="#">MartPlace</a>. All rights reserved. Created by <a
+              class="footer__copy-text--white" href="#">AazzTech</a>
           </div>
         </div>
       </div>
